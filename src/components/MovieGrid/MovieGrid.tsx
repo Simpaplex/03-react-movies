@@ -16,7 +16,7 @@ function MoveGrid({ movies, onSelect}: MoveGridProps) {
           <div className={css.card}>
             <img
               className={css.image}
-              src={el.backdrop_path?`${BASE_IMAGE_URL}${el.backdrop_path}`:'../../../public/film.svg'}
+              src={el.backdrop_path?`${BASE_IMAGE_URL}${el.backdrop_path}`:'/public/film.svg'}
               alt={el.title}
               loading="lazy"
             />
